@@ -1,0 +1,67 @@
+.footer::before{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0; 
+}
+
+.footer{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.txt-footer{
+    font-family: 'IBM Plex Sans', serif;
+    font-size: 1em;
+    color: #060A24;
+    letter-spacing: 0;
+    letter-spacing: 0.25em;
+ }
+
+.icons-footer{
+    width: 19.5em;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: -0.6em;  
+}
+
+.ico-footer{
+    font-family: 'Font Awesome Free';
+    font-size: 1.125em;
+    color: #060A24;
+    transition: all .2s ease-in-out;
+}
+
+.ico-footer:hover{
+    font-family: 'Font Awesome Free';
+    font-size: 1.125em;
+    color:#00F0B8;
+    transform: scale(2.1);
+}
+
+@media only screen and (min-width: 600px) {
+
+    .footer{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+    }
+
+    .icons-footer{
+        margin-left:30em;
+    }
+
+}

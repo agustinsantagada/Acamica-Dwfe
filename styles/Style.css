@@ -1,0 +1,389 @@
+.navbar::before{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0; 
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  padding-right: 530px;
+}
+
+.logo{
+  height:2.25em;
+  width:2.25em;
+  display:flex; 
+  margin-right: 40em; 
+}
+
+.flex-nav {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-right: 11.25em; 
+}
+
+sel { 
+  font-family: 'IBM Plex Sans';
+  text-decoration: none;
+  padding: 20px 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+sel:hover {
+  font-size: 16px;
+  color: #00F3BB;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-decoration: line-through  
+}
+
+sel:active {
+  font-size: 16px;
+  color: rgba(6,10,36,0.56);
+  letter-spacing: 0;
+  line-height: 28px;
+}
+
+
+.header::before{
+  position: absolute;
+  content:"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0; 
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding-top: 5em;  
+}
+
+.buttonh{
+  width: 24em;
+  height: 3.5em;
+  background: #00F3BB;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125em;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 3em;  
+}
+
+.buttonh:hover{
+  width: 24em;
+  height: 3.5em;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125em;
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 3em;
+}
+
+#title1{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 4em;
+  color: #060A24;
+  letter-spacing: 0;
+  padding-left: 0.5em;
+}
+
+#txt1{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.2em;
+  color: #060A24;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-right: 2em;
+  width: 80%;  
+}
+
+.podcast::before{
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 10%, 100% 5%, 100% 90%, 0% 100%);
+  width: 100%;
+  height: 200%;
+  display: block;
+  z-index: -100;
+}
+
+.podcast{
+  display: flex;
+  flex-direction: column;
+}
+
+.title-podcast{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0;
+  padding-left: 0.5em;
+  padding-top: 4.5em;
+}
+
+.pod-menu{
+  display:flex;
+  flex-direction: column;
+}
+
+.pods{
+  width: calc(100%);
+  padding-top: 2em;
+}
+
+.photos::before{
+  position: absolute;
+  content:"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; 
+  top: 0;
+  left: 0;
+}
+
+.photos-wall {
+  display: flex;
+  flex-flow: wrap;
+}
+      
+.wallimage {
+  width: calc(100%);
+}
+
+.title-photos{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3em;
+  color: #060A24;
+  letter-spacing: 0;
+  padding: 0.5em; 
+  width: 70%; 
+}
+
+
+.topics::before{
+  content:"";
+  position: absolute;
+  display: block; 
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ico{
+  width: 10em;
+  display: flex;
+  flex-direction: column; 
+  padding-top: 5em; 
+}
+
+.title-icon{
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3em;
+  color: #060A24;
+  letter-spacing: 0;
+  padding: 0.5em;
+  width: 70%;
+}
+
+.txt-icon{
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.5em;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  padding-top: 1em;
+  display: flex;
+  align-items: flex-start;
+}
+
+
+.news::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(250deg, #0000FF 0%, #0000A3 100%);
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+  width: 100%;
+  height: 67%;
+  display: block;
+  z-index: -100;
+}
+
+.news{
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 10em;
+}
+
+.title-news{
+  font-family: 'IBM Plex Sans';
+  font-size: 3em;
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 3.5em;
+}
+
+
+.button-news{
+  width: 24em;
+  height: 3.5em;
+  background: #00F3BB;
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125em;
+  color: #060A24;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 3em;  
+}
+
+
+
+
+.button-news:hover {
+  width: 24em;
+  height: 3.5em;
+  background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 1.125em;
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 3em;  
+}
+
+@media only screen and (min-width: 600px) {
+
+
+  .info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;   
+  }
+
+  .button-head{
+      margin-left: 14.5em;
+      
+  }
+
+  #title1{
+      padding-left: 4em;
+     
+  }
+
+  #txt1{
+      padding-left: 13.5em;
+
+  }
+
+  .podcast::before{
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 35%, 100% 30%, 100% 80%, 0% 90%);
+}
+
+.podcast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pods{
+    width: calc(35%);
+    padding-top: 4em;
+}
+
+.pod-menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* border: 1px solid black;  */
+}
+
+.title-podcast{
+    padding-left: 5.3em;
+
+}
+
+.photos-wall {
+  display: flex;
+  flex-flow: wrap;
+}
+      
+.wallimage {
+  width: calc(100% / 3);
+}
+
+.title-photos{
+  padding-left: 5em;
+
+}
+
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.title-icon{
+padding-left: 5em;
+}
+
+.news::before{
+  width: 100%;
+  height: 55%;  
+}
+
+
+
+}

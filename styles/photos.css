@@ -1,0 +1,51 @@
+.photos::before{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; 
+    top: 0;
+    left: 0;
+}
+
+.photos{
+    margin-top: 8em;
+}
+
+.photos-wall {
+    display: flex;
+    flex-flow: wrap;
+}
+        
+.wallimage {
+    width: calc(100%);
+}
+
+.title-photos{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3em;
+    color: #060A24;
+    letter-spacing: 0;
+    padding: 0.5em; 
+    width: 70%; 
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .photos-wall {
+        display: flex;
+        flex-flow: wrap;
+    }
+            
+    .wallimage {
+        width: calc(100% / 3);
+    }
+    
+    .title-photos{
+        padding-left: 5em;
+    }
+
+    
+
+}

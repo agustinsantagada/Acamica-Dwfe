@@ -1,0 +1,58 @@
+.topics::before{
+    position: absolute;
+    display: block; 
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ico{
+    width: 10em;
+    display: flex;
+    flex-direction: column; 
+    padding-top: 5em; 
+}
+
+.title-icon{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3em;
+    color: #060A24;
+    letter-spacing: 0;
+    padding: 0.5em;
+    width: 70%;
+}
+
+.txt-icon{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5em;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    padding-top: 1em;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .icons{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .title-icon{
+    padding-left: 5em;
+    }
+
+}
