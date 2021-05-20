@@ -15,7 +15,8 @@
     align-items: center;
     background-color: white;
     justify-content: space-around;
-    margin-top: 4em;
+    margin-top: 3em;
+    
 }
 
 .txt-footer{
@@ -24,6 +25,7 @@
     color: #060A24;
     letter-spacing: 0;
     letter-spacing: 0.25em;
+    
  }
 
 .icons-footer{
@@ -31,7 +33,8 @@
     list-style: none;
     display: flex;
     justify-content: space-between; 
-    margin-left: -0.6em;  
+    margin-left: -0.6em; 
+    
 }
 
 .ico-footer{
@@ -39,6 +42,7 @@
     font-size: 1.125em;
     color: #060A24;
     transition: all .2s ease-in-out;
+    
 }
 
 .ico-footer:hover{
