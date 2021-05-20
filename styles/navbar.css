@@ -37,8 +37,6 @@
        
 }
 
-  
-
 .menu-desplazable {
     height: 175px;
     width: 100%;
@@ -99,24 +97,24 @@
     background-color: black;   
 }
 
-a{
+.lista-ul-botton{
     list-style: none;
     color: white;
     text-decoration: none;   
 }
 
-a:visited{
+.lista-ul-botton:visited{
     text-decoration: none;   
 }
   
-a{
+.lista-ul-botton{
     height: 25%;
     padding: .5em;
     text-decoration: none;
     display: block;
 }
 
-a:hover{
+.lista-ul-botton:hover{
     display: block;
     background-color: #6b6bec;
     transition: all 0.5s;
@@ -148,7 +146,7 @@ a:hover{
         text-decoration: none;
     }
 
-    a { 
+    .lista-ul-botton { 
         font-family: 'IBM Plex Mono', sans-serif;
         text-decoration: none;
         margin-right: 2em;
@@ -158,7 +156,7 @@ a:hover{
    
     }
     
-    a:hover {
+    .lista-ul-botton:hover {
         font-size: 16px;
         color: #00F3BB;
         letter-spacing: 0;
@@ -167,7 +165,7 @@ a:hover{
         background-color: transparent;    
     }
     
-    a:active {
+    .lista-ul-botton:active {
         font-size: 16px;
         color: rgba(6,10,36,0.56);
         letter-spacing: 0;
